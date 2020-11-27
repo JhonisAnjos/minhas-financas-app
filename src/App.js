@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
+import 'bootswatch/dist/flatly/bootstrap.css'
+import Login from './views/login';
+import './custom.css'
+
+class App extends React.Component {
+  render() {
+    return(
     <div>
-     hello world!
+      <Login/>
     </div>
-  );
+    )
+  }
+    
 }
 
 export default App;
